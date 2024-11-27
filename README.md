@@ -1,4 +1,4 @@
-# Spatial resolution enhancement using deep learning improves chest disease diagnosis based on thick slice CT (npj Digital Medicine)
+# Spatial resolution enhancement using deep learning improves chest disease diagnosis based on thick slice CT (*npj Digital Medicine*)
 [Pengxin Yu](https://github.com/smilenaxx/), [Haoyue Zhang](https://github.com/zhanghaoyue), Dawei Wang, Rongguo Zhang, et al.
 
 [![paper](https://img.shields.io/badge/npj_Digital_Medicine-Paper-green)](https://www.nature.com/articles/s41746-024-01338-8)
