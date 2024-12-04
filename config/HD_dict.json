@@ -1,0 +1,12 @@
+{
+  "train": [
+    "N000029702000.nii.gz"
+  ],
+  "val": [
+    "N000099758000.nii.gz"
+  ],
+  "test": [
+    "NHDH396299.nii.gz"
+  ],
+  "path_img": "../data/"
+}
