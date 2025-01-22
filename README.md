@@ -1,3 +1,6 @@
+# Download model checkpoint here: https://emory-my.sharepoint.com/:u:/g/personal/pmutha_emory_edu/EfUOXrzk7q5HgQ2FX8aEqA0BAQt9sUCjw8UOGt2gFiZzAA?e=AeoV8S
+Thanks to Zelin for downloading the weights. Please contact Pushkar Mutha (pmutha@emory.edu) if you need additional details or help setting this up.
+
 # Spatial resolution enhancement using deep learning improves chest disease diagnosis based on thick slice CT (*npj Digital Medicine*)
 [Pengxin Yu](https://github.com/smilenaxx/), [Haoyue Zhang](https://github.com/zhanghaoyue), Dawei Wang, Rongguo Zhang, et al.
 
@@ -28,8 +31,11 @@ python test.py test --path_key HD --gpu_idx 0 --model t3dv1 --net_idx CTH_net
 ```
 
 ## Model
-The well-trained model parameters can be downloaded in [baidu cloud disk](https://pan.baidu.com/s/1Z245Q9NzUjg8bZjkj1YWtA?pwd=tg55).  
+Link: https://emory-my.sharepoint.com/:u:/g/personal/pmutha_emory_edu/EfUOXrzk7q5HgQ2FX8aEqA0BAQt9sUCjw8UOGt2gFiZzAA?e=AeoV8S
 The model path is **/model/xxx.pkl**.
+Thanks to Zelin Zhang for downloading the weights from Baidu. Please contact Pushkar Mutha (pmutha@emory.edu) if you need additional details or help setting this up.
+~~The well-trained model parameters can be downloaded in [baidu cloud disk](https://pan.baidu.com/s/1Z245Q9NzUjg8bZjkj1YWtA?pwd=tg55).~~
+
 
 ## Data
 The data used for this study are not publicly available due to hospital privacy restrictions.  
