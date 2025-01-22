@@ -1,10 +1,9 @@
-# Download model checkpoint here: https://emory-my.sharepoint.com/:u:/g/personal/pmutha_emory_edu/EfUOXrzk7q5HgQ2FX8aEqA0BAQt9sUCjw8UOGt2gFiZzAA?e=AeoV8S
-Thanks to Zelin for downloading the weights. Please contact Pushkar Mutha (pmutha@emory.edu) if you need additional details or help setting this up.
-
 # Spatial resolution enhancement using deep learning improves chest disease diagnosis based on thick slice CT (*npj Digital Medicine*)
 [Pengxin Yu](https://github.com/smilenaxx/), [Haoyue Zhang](https://github.com/zhanghaoyue), Dawei Wang, Rongguo Zhang, et al.
 
 [![paper](https://img.shields.io/badge/npj_Digital_Medicine-Paper-green)](https://www.nature.com/articles/s41746-024-01338-8)
+
+## Please contact Pushkar Mutha (pmutha@emory.edu) for downloading the model weights or if you need help setting it up.
 
 ## Abstract
 > CT is crucial for diagnosing chest diseases, with image quality affected by spatial resolution. Thick-slice CT remains prevalent in practice due to cost considerations, yet its coarse spatial resolution may hinder accurate diagnoses. Our multicenter study develops a deep learning synthetic model with Convolutional-Transformer hybrid encoder-decoder architecture for generating thin-slice CT from thick-slice CT on a single center (1576 participants) and access the synthetic CT on three cross-regional centers (1228 participants). The qualitative image quality of synthetic and real thin-slice CT is comparable (p= 0.16). Four radiologists’ accuracy in diagnosing community-acquired pneumonia using synthetic thin-slice CT surpasses thick-slice CT (p < 0.05), and matches real thin-slice CT (p > 0.99). For lung nodule detection, sensitivity with thin-slice CT outperforms thick-slice CT (p < 0.001) and comparable to real thin-slice CT (p > 0.05). These ndings indicate the potential of our model to generate high-quality synthetic thin-slice CT as a practical alternative when real thin-slice CT is preferred but unavailable.
@@ -31,13 +30,9 @@ python test.py test --path_key HD --gpu_idx 0 --model t3dv1 --net_idx CTH_net
 ```
 
 ## Model
-Link: https://emory-my.sharepoint.com/:u:/g/personal/pmutha_emory_edu/EfUOXrzk7q5HgQ2FX8aEqA0BAQt9sUCjw8UOGt2gFiZzAA?e=AeoV8S
-
+## Please contact Pushkar Mutha (pmutha@emory.edu) for downloading the model weights or if you need help setting it up.
+The well-trained model parameters can be downloaded in [baidu cloud disk](https://pan.baidu.com/s/1Z245Q9NzUjg8bZjkj1YWtA?pwd=tg55).
 The model path is **/model/xxx.pkl**.
-
-Thanks to Zelin Zhang for downloading the weights from Baidu. Please contact Pushkar Mutha (pmutha@emory.edu) if you need additional details or help setting this up.
-
-~~The well-trained model parameters can be downloaded in [baidu cloud disk](https://pan.baidu.com/s/1Z245Q9NzUjg8bZjkj1YWtA?pwd=tg55).~~
 
 
 ## Data
